@@ -14,13 +14,25 @@
 
     <fragment
         android:id="@+id/nav_patient"
-        android:name="com.example.menu.ui.patient.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.menu.ui.patient.PatientFragment"
+        android:label="@string/nav_pacjenci"
+        tools:layout="@layout/fragment_patient" />
 
     <fragment
-        android:id="@+id/nav_up_person"
-        android:name="com.example.menu.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_worker"
+        android:name="com.example.menu.ui.worker.WorkerFragment"
+        android:label="@string/nav_pracownicy"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/nav_visit"
+        android:name="com.example.menu.ui.visit.VisitFragment"
+        android:label="@string/nav_wizyty"
+        tools:layout="@layout/visit_fragment" />
+
+    <fragment
+        android:id="@+id/nav_exam"
+        android:name="com.example.menu.ui.exam.ExamFragment"
+        android:label="@string/nav_badania"
+        tools:layout="@layout/exam_fragment" />
 </navigation>

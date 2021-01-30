@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menu</string>
+    <string name="app_name">SOS</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -8,6 +8,10 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="nav_pacjenci">Pacjenci</string>
+    <string name="nav_pracownicy">Pracownicy</string>
+    <string name="nav_wizyty">Wizyty</string>
+    <string name="nav_badania">Badania</string>
+    <string name="nav_slownik">Słownik</string>
+    <string name="witamy">Witamy w aplikacji SOS</string>
 </resources>

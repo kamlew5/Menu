@@ -1,4 +1,4 @@
-package com.example.menu
+package com.example.menu.network.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,16 +6,16 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.example.menu.R
 import com.example.menu.serializers.PatientList
-import com.example.menu.serializers.SubPatientList
 
 class PatientAdapter(val patientList: PatientList) : RecyclerView.Adapter<PatientAdapter.PatientViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PatientViewHolder {
         return PatientViewHolder(
-            LayoutInflater.from(parent.context)
-                .inflate(R.layout.patient_list_element, parent, false)
+                LayoutInflater.from(parent.context)
+                        .inflate(R.layout.patient_list_element, parent, false)
         )
     }
 
